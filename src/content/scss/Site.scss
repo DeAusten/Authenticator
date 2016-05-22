@@ -1,0 +1,45 @@
+﻿@import 'partials/buttons';
+@import 'partials/tables';
+@import 'partials/bootstrap';
+
+//  Values in this sheet should only leverage those declared in the partials imported above. Partials should import variables.
+//  This will make adjusting settings site-wide trivial as modifications to any variable file will propogate to this main scss file.
+body {
+    margin-top: $xxxlrg !important;
+    background: $white;
+}
+
+.body-content {
+    padding-left: $med;
+    padding-right: $med;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+form {
+    margin-bottom: $nil;
+}
+
+.text-light {
+    color: $lighter !important;
+}
+
+.text-faded {
+    color: $faded-purple !important;
+}
+
+hr {
+    border-top: 1px solid rgba(236, 238, 239, 0.14) !important;
+}
+
+.intro-unit {
+    margin-top: 12vh;
+}

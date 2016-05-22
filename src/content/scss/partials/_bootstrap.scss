@@ -1,0 +1,22 @@
+﻿@import '../variables/colors';
+@import '../variables/sizes';
+@import '../variables/fonts';
+
+.jumbotron {
+    border-radius: $borderRadius !important;
+}
+
+.btn {
+    border-radius: $borderRadius !important;
+    padding-left: $lrg !important;
+    padding-right: $lrg !important; 
+}
+
+.navbar-fixed-top {
+    background-color: transparent !important;
+    border-bottom: 1px solid $light-gray !important;
+}
+
+.navbar-fixed-bottom {
+    background-color: $darker-purple !important;
+}

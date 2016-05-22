@@ -1,0 +1,18 @@
+﻿@import '../variables/colors';
+@import '../variables/sizes';
+@import '../variables/fonts';
+
+
+//  Values in this sheet should only leverage those declared in the partials imported above. Partials should import variables.
+//  This will make adjusting settings site-wide trivial as modifications to any variable file will propogate to this partial scss file.
+.btn-faded {
+    border-color: $faded-purple !important;
+    background-color: transparent !important;
+    color: $faded-purple !important;;
+}
+
+.btn-faded:hover {
+    border-color: $faded-purple !important;;
+    background-color: $faded-purple !important;;
+    color: $darker-purple !important;;
+}

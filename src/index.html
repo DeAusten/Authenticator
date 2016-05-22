@@ -1,0 +1,44 @@
+<html>
+<head>
+    <base href="/">
+    <title>Angular2Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/ico" href="content/images/favicon.ico"/>
+    
+    <!-- Vendor Libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="vendor/es6-shim/es6-shim.min.js"></script>
+    <script src="vendor/tether/dist/js/tether.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="vendor/zone.js/dist/zone.js"></script>
+    <script src="vendor/reflect-metadata/Reflect.js"></script>
+    <script src="vendor/systemjs/dist/system.src.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/29d4febbac.js"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="content/css/site.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app')
+                .then(null, console.error.bind(console));
+    </script>
+
+</head>
+
+<body>
+    <app>
+        <div class="text-xs-center">
+            <i class="fa fa-refresh fa-spin fa-3x fa-fw text-faded"></i>
+            <span class="sr-only">Loading...</span>
+        </div>      
+    </app>
+</body>
+
+</html>
